@@ -1,0 +1,44 @@
+/* Scss Document */
+
+/* body {background: $body-bg; padding-top: 5rem;} no need because not used fixed-top at navbar*/
+
+.showcase{background: $white url($img1) no-repeat center ;min-height: 500px; 
+	h1{font-size: 60px;}
+	.container {background-color:$white;opacity: 0.80;
+    padding: 3rem 10px;text-align: center}
+}
+.navbar{padding: 0px 1rem;background-color: $main-color;
+	a{color:check-light-text($main-color)!important;
+	}
+	.dropdown-menu{background-color: lighten($main-color,20); }
+	.dropdown-item:hover ,.dropdown-item:active,.dropdown-item:focus,.dropdown-item:disabled{background-color: darken($main-color,20); }
+}
+	
+.section-a{background-color: $main-color; color:check-light-text($main-color);text-align: center;
+	.fa{font-size: 2em;padding: 20px;}
+	div{padding: 20px 15px;}
+}
+.section-b{background: $white url($img3) no-repeat center ;background-color: #6eca9f;
+	img {width: 100%;padding: 20px;}
+}
+
+.panel-group{padding: 25px;
+	.panel-title{background-color: #2196f370; border-radius: 25rem;
+                  a {color:lighten($blue,30);text-decoration: none;}
+	              }
+    .panel-body{color:lighten($blue,30);}	
+}
+
+.section-c{text-align: center; 
+	       background-color: $main-color;
+	       color:check-light-text($main-color);
+	       padding:30px 10px;
+	       form{padding:10px 20px;}
+	       .bt{background-color: darken($main-color,20); color:check-light-text($main-color);}
+}
+footer{background-color: darken($main-color,30%);color:check-light-text($main-color);padding-bottom: 20px;
+ a {color:lighten($main-color,30);text-decoration: none;}
+}
+
+
+
